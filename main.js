@@ -142,29 +142,3 @@ document.querySelector('#btn-encerrar').addEventListener('click', () => {
     imagemCapturada.hidden = true;
 });
 
-// ----Teste Geomtria----
-const diagnostico = {
-    video: {
-        esquerda: 8,
-        topo: 8,
-        largura: 359,
-        altura: 201.94
-    },
-
-    moldura: {
-        esquerda: 43.89,
-        topo: 78.67,
-        largura: 287.19,
-        altura: 60.58
-    },
-
-    imagem: {
-        largura: 1280,
-        altura: 720
-    }
-};
-
-console.log(
-    'Recorte calculado:',
-    calcularRecorte(diagnostico)
-);
