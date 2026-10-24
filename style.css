@@ -38,6 +38,10 @@
     display: none;
 }
 
+#foto-recortada[hidden] {
+    display: none !important;
+}
+
 #canvas-diagnostico[hidden] {
     display: none !important;
 }

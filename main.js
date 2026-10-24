@@ -92,6 +92,7 @@ document.querySelector('#btn-encerrar').addEventListener('click', () => {
     camera.encerrarCamera();
     container.classList.remove('camera-ativa');
     imagemCapturada.hidden = true;
+    imagemRecortada.hidden = true;
     const diagnostico = canvasDiagnostico();
     if(diagnostico){
         diagnostico.hidden = true;
