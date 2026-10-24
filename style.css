@@ -25,7 +25,8 @@
 }
 
 #video,
-#foto-capturada {
+#foto-capturada,
+#foto-recortada {
     display: block;
     width: 100%;
     height: auto;
