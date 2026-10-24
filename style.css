@@ -33,6 +33,14 @@
     margin: 0 auto;
 }
 
+#foto-capturada[hidden] {
+    display: none;
+}
+
+#canvas-diagnostico[hidden] {
+    display: none !important;
+}
+
 #moldura-validade {
     position: absolute;
 
